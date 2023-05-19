@@ -1,0 +1,7 @@
+{
+  "name": "sampletesting",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

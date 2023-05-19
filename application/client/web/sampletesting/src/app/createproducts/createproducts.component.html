@@ -1,0 +1,35 @@
+<h2 class="screen-align">Createproducts</h2>
+<div id="template-i02z" class="gjs-row">
+    <div id="template-i3j3" class="gjs-cell">
+        <label id="template-ibmlp" class="label ">Name</label>
+        <input id="template-iqn3m" required="true" [(ngModel)]="products.name"
+        [ngModelOptions]="{standalone: true}" ngDefaultControl class="input form-control "
+        />
+    </div>
+    <div id="template-i0mn" class="gjs-cell">
+        <label id="template-ioevf" class="label ">Description</label>
+        <input id="template-idxnz" [(ngModel)]="products.description"
+        [ngModelOptions]="{standalone: true}" ngDefaultControl class="input form-control "
+        />
+    </div>
+    <div id="template-ilqx" class="gjs-cell">
+        <label id="template-itkhf" class="label ">price</label>
+        <input id="template-iovqo" [(ngModel)]="products.price" [ngModelOptions]="{standalone: true}"
+        ngDefaultControl class="input form-control " />
+    </div>
+</div>
+<div id="template-impg" class="gjs-row">
+    <div id="template-iraj" class="gjs-cell">
+        <label id="template-ijw8x" class="label ">pros</label>
+        <input id="template-ir8b2" [(ngModel)]="products.pros" [ngModelOptions]="{standalone: true}"
+        ngDefaultControl class="input form-control " />
+    </div>
+    <div id="template-iuer" class="gjs-cell">
+        <label id="template-ivsvc" class="label ">discount_price</label>
+        <input id="template-ia175" [(ngModel)]="products.offer_price"
+        [ngModelOptions]="{standalone: true}" ngDefaultControl class="input form-control "
+        />
+    </div>
+    <div id="template-iyzq" class="gjs-cell"></div>
+</div>
+<div id="template-ihxm" (click)="GpCreate()" class="button btn btn-primary ">Create</div>

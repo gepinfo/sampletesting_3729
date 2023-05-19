@@ -1,0 +1,35 @@
+<h2 class="screen-align">Updeleteproducts</h2>
+<div id="template-ikwg" class="gjs-row">
+    <div id="template-i6gw" class="gjs-cell">
+        <label id="template-iocs" class="label ">name</label>
+        <input id="template-ierrk" [(ngModel)]="products.name" [ngModelOptions]="{standalone: true}"
+        ngDefaultControl class="input form-control " />
+    </div>
+    <div id="template-i5no" class="gjs-cell">
+        <label id="template-ieck3" class="label ">description</label>
+        <input id="template-iyw4m" [(ngModel)]="products.description"
+        [ngModelOptions]="{standalone: true}" ngDefaultControl class="input form-control "
+        />
+    </div>
+    <div id="template-indh" class="gjs-cell">
+        <label id="template-ici4s" class="label ">price</label>
+        <input id="template-if5s2" [(ngModel)]="products.price" [ngModelOptions]="{standalone: true}"
+        ngDefaultControl class="input form-control " />
+    </div>
+</div>
+<div id="template-ihhj" class="gjs-row">
+    <div id="template-i1vt" class="gjs-cell">
+        <label id="template-ilf0f" class="label ">pros</label>
+        <input id="template-iypp1" [(ngModel)]="products.pros" [ngModelOptions]="{standalone: true}"
+        ngDefaultControl class="input form-control " />
+    </div>
+    <div id="template-iddw" class="gjs-cell">
+        <label id="template-icksn" class="label ">discount_price</label>
+        <input id="template-iuyd3" [(ngModel)]="products.offer_price"
+        [ngModelOptions]="{standalone: true}" ngDefaultControl class="input form-control "
+        />
+    </div>
+    <div id="template-ix4z" class="gjs-cell"></div>
+</div>
+<div id="template-ierbf" (click)="GpUpdate()" class="button btn btn-primary ">Update</div>
+<div id="template-imcgy" (click)="GpDelete()" class="button btn btn-primary ">Delete</div>
